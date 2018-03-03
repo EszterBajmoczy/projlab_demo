@@ -22,10 +22,6 @@ public class Switch extends Tile {
         this.controlling = controlling;
     }
 
-    private void flipSwitch(){
-        controlling.setClosed(!controlling.isClosed());
-    }
-
     @Override
     public void leave(GameObject go) {
         super.leave(go);
